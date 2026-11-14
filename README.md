@@ -91,4 +91,4 @@ The B2C laundry pricing page is a dependency-free static site in `index.html`, `
 
 To publish it with Cloudflare Pages, connect this repository, choose the **None** framework preset, leave the build command blank, and use `/` as the build output directory. Every push to `main` will then deploy automatically.
 
-To add or change a service, edit the `services` array in `services.js`; the page generates the pricing cards automatically.
+To add or change a service, copy an existing price card in `index.html` and update its name, description, price, and `aria-label`. The cards are intentionally static so they render without JavaScript.
