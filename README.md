@@ -81,3 +81,14 @@ We aim to gradually digitize every aspect of laundry operations, from customer o
 ---
 
 © Wash&Fold. All rights reserved.
+
+
+---
+
+## B2C Pricing Site
+
+The B2C laundry pricing page is a dependency-free static site in `index.html`, `styles.css`, and `services.js`.
+
+To publish it with Cloudflare Pages, connect this repository, choose the **None** framework preset, leave the build command blank, and use `/` as the build output directory. Every push to `main` will then deploy automatically.
+
+To add or change a service, edit the `services` array in `services.js`; the page generates the pricing cards automatically.
